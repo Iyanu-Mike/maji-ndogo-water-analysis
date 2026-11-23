@@ -1,0 +1,15 @@
+# 1. Ignore the massive raw ALX database dump
+md_water_services.sql
+*.sql.gz
+*.dump
+
+# 2. Ignore raw spreadsheets and data files
+*.csv
+*.xlsx
+*.xls
+
+# 3. Ignore Power BI source files (share screenshots or PDFs instead)
+*.pbix
+
+# 4. Ignore password/environment files
+.env
